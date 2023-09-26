@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <style>
+    .navbar-nav .nav-link.active, .btn-primary {
+        color: #fff;
+        background-color: #42042a;
+        border: none;
+    }
+
+    article {
+        padding: 8px;
+    }
+
+    .nav-link {
+            text-align: center;
+        }
+
+        section {
+            height: auto;
+            padding-top: 70px;
+        }
+
+        .d-block {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            margin-top: 72px;
+
+        }
+
+        #cabecalho {
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #fff;
+            width: 100%;
+
+        }
+
+        @media (max-width: 420px) {
+            h1 {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="./images/Ativo 8.png" alt="Primeiro Slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./images/Mapinha.jpg" alt="Segundo Slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./images/21-100.jpg" alt="Terceiro Slide">
+            </div>
+        </div>
+    
+        </div>
+    </div>
+
+<div class="container">
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <img style="max-width: 45px; max-height: 45px; margin-right: 16px;" src="./images/Ativo 3.png" />
+            <h1>Jéssica Nicoletti Thuller</h1>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav id="menu" class="justify-content-end collapse navbar-collapse">
+                <ul class="nav nav-pills navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#presentation">Apresentação</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projetos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+</div>
+
+
+
+        <div class="container">
+            <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+                <section id="presentation">
+                    <h2>Apresentação</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis labore architecto vitae molestias similique explicabo inventore cumque nostrum modi officiis fuga debitis, temporibus eligendi ipsum expedita, dolores itaque nemo dolore.
+                    </p>
+                </section>
+
+                <section id="projects">
+                    <h2>Projetos</h2>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                                <article>
+                                    <img class="img-fluid" src="./images/17-100.jpg" />
+                                    <h2>Livro Infantil Ilustrado</h2>
+                                    <p>Lorem ipsum</p>
+                                    <a href="#" class="btn btn-primary">Veja Mais</a>
+                                </article>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                                <article>
+                                    <img class="img-fluid" src="./images/Carmen.jpg" />
+                                    <h2>Poster BRASIL-IDADE</h2>
+                                    <p>Lorem ipsum</p>
+                                    <a href="#" class="btn btn-primary">Veja Mais</a>
+
+                                </article>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                                <article>
+                                    <img class="img-fluid" src="./images/caveira_pintura.png" />
+                                    <h2>Ilustração e Pintura Digital</h2>
+                                    <p>Lorem ipsum</p>
+                                    <a href="#" class="btn btn-primary">Veja Mais</a>
+
+                                </article>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                                <article>
+                                    <img class="img-fluid" src="./images/Cópia de trampinho.png" />
+                                    <h2>Poster estilizado</h2>
+                                    <p>Lorem ipsum</p>
+                                    <a href="#" class="btn btn-primary">Veja Mais</a>
+
+                                </article>
+                            </div>
+                        </div>
+
+                </div>
+                </section>
+
+
+                <section id="contato">
+                    <h2>Contato</h2>
+                    <div class="row">
+                        <div class="col-6">
+                            <article class="card">
+                                <div class="card-body">
+                                    <img style="max-width: 50px; max-height: 50px;" src="./images/Ativo 3.png"/>
+                                    <h4 class="card-title">Redes Sociais</h4>
+                                    <a href="#" class="btn btn-primary">Linkedin</a>
+                                    <a href="#" class="btn btn-primary">Instagram</a>
+                                    <a href="#" class="btn btn-primary">Behance</a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-6">
+                            <article class="card">
+                                <div class="card-body">
+                                    <img style="max-width: 50px; max-height: 50px;" src="./images/Ativo 3.png"/>
+                                    <h4 class="card-title">Outras formas</h4>
+                                    <a href="#" class="btn btn-primary">Telefone</a>
+                                    <a href="#" class="btn btn-primary">E-mail</a>
+                                    <a href="#" class="btn btn-primary">Gmail</a>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+        </div>
+
+
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
