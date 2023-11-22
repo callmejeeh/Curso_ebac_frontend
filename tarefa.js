@@ -11,7 +11,7 @@ alunos.push({nome:'Lucio', nota: '5'});
 alunos.push({nome:'Ana', nota: '8'});
 alunos.push({nome:'João', nota: '10'});
 alunos.push({nome:'Renata', nota: '2'});
-alunos.push({nome:'Renata', nota: '4'});
+alunos.push({nome:'Ulisses', nota: '4'});
 
 const alunosAprovados = alunos.filter(function(item){
     return (item.nota >= '6');
