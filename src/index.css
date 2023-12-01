@@ -1,0 +1,17 @@
+.container {
+    background-color: azure;
+    max-width: 560px;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.container-input {
+    display: block;
+    padding: 16px;
+    margin-bottom: 24px;
+}
+
+.container-result {
+    margin-top: 24px;
+    display: block;
+}
